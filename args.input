@@ -1,0 +1,2 @@
+output_path = _resolve_path(args.output)
+    if not output_path.is_absolute():
