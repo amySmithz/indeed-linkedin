@@ -1,0 +1,13 @@
+try:
+        run_scraper(
+            input_config_path=input_path,
+            output_path=output_path,
+            logger=logger,
+        )
+        return 0
+    except Exception as exc:  # noqa: BLE001
+        logger.exception("Fatal error while running scraper: %s", exc)
+        return 1
+
+if __name__ == "__main__":
+    sys.exit(main())
