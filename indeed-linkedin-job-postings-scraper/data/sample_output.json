@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Architect",
+    "company": "ABC Design Group",
+    "location": "Atlanta, USA",
+    "jobtype": "Full-time",
+    "remote": "No",
+    "posted_date": "2025-11-08",
+    "link": "https://www.indeed.com/viewjob?jk=abc123",
+    "description": "We’re seeking an experienced architect to join our creative team...",
+    "salary": "$80,000 - $100,000",
+    "source": "Indeed"
+  },
+  {
+    "title": "Senior Software Engineer",
+    "company": "Example Tech Corp",
+    "location": "Berlin, Germany",
+    "jobtype": "Full-time",
+    "remote": "Yes",
+    "posted_date": "2025-11-09",
+    "link": "https://www.linkedin.com/jobs/view/1234567890",
+    "description": "Design and build scalable backend services and APIs for a fast-growing SaaS platform.",
+    "salary": "€80,000 - €110,000",
+    "source": "LinkedIn"
+  }
+]
