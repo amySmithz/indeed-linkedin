@@ -1,0 +1,40 @@
+{
+  "request_delay_seconds": 1.0,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "proxy": {
+    "http": "http://username:password@proxy-host:port",
+    "https": "http://username:password@proxy-host:port"
+  },
+  "queries": [
+    {
+      "title": "Software Engineer",
+      "locations": [
+        {
+          "city": "Berlin",
+          "country": "Germany"
+        },
+        {
+          "city": "Atlanta",
+          "country": "USA"
+        }
+      ],
+      "platforms": ["indeed", "linkedin"],
+      "job_types": ["full-time"],
+      "remote": ["yes", "no"],
+      "max_results": 20
+    },
+    {
+      "title": "Data Analyst",
+      "locations": [
+        {
+          "city": "Toronto",
+          "country": "Canada"
+        }
+      ],
+      "platforms": ["indeed"],
+      "job_types": ["full-time", "part-time"],
+      "remote": ["yes"],
+      "max_results": 15
+    }
+  ]
+}
