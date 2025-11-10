@@ -1,0 +1,14 @@
+{
+  "request_delay_seconds": 1.0,
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "proxy": {
+    "http": "http://username:password@proxy-host:port",
+    "https": "http://username:password@proxy-host:port"
+  },
+  "defaults": {
+    "max_results_per_query": 50,
+    "platforms": ["indeed", "linkedin"],
+    "job_types": ["full-time", "part-time"],
+    "remote": ["yes", "no"]
+  }
+}
